@@ -16,6 +16,8 @@ def calculate_difficulty(dif):
         response = 'Normal'
     elif dif == 25:
         response = 'SMASH!'
+    else:
+        response = 'Easy'
     return response
 def calculate_soundtrack(dif):
     dif = abs(dif)
